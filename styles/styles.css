@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  background-color: #39998E;
+}
+input{
+  font-size: 3em;
+  width: 80%;
+  height: 10%;
+  font-size: 10vh;
+  margin: 2% auto;
+  display: block;
+}
+.keyboard{
+  width: 100%;
+  height: 60%;
+}
+.row-1,.row-2,.row-3{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.keys{
+  width: 70px;
+  height: 70px;
+  border: solid 1px;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 5px black;
+  background-color: #FFDC7C;
+}
+kbd{
+  font-size: 3em;
+}
+.pressed{
+  color: white;
+  background-color: #30CE88;
+  border-color: white;
+}
